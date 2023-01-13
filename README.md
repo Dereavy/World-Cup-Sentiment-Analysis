@@ -2,6 +2,8 @@
 Sentiment analysis of tweets in the context of the 2022 Quatar world cup
 
 ## 1. Pipeline creation
+![Pipeline schematic](https://user-images.githubusercontent.com/22829157/212369544-aa56d3ec-3269-4696-bcf8-a61a457baad5.png)
+
 ### 1.1 Kafka Installation:
 Kafka installation: https://kafka.apache.org/quickstart
 
