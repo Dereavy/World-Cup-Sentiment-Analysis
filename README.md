@@ -24,12 +24,20 @@ Once all services have successfully launched, you will have a basic Kafka enviro
 **Start the Sample Tweets Producer**
 
 `sample_tweets_producer.ipynb`
+```
+streamer = SampleTweetProducer()
+streamer.stream()
+```
 
 This will start a service that will stream tweets to kafka.
 
 **Start the Sentiment Analysis Producer**
 
 `sentiment_analysis_producer.ipynb`
+```
+sentiment_producer = SentimentAnalysisProducer("MQTT")
+sentiment_producer.stream()
+```
 
 This will analyse the tweets and send them to MQTT and save them to a CSV.
 
