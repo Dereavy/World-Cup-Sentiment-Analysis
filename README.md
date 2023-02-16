@@ -1,6 +1,9 @@
 # World-Cup-Sentiment-Analysis
 Sentiment analysis of tweets in the context of the 2022 Quatar world cup
 
+This is an unfinished project in the sense that we have not managed to link the MQTT broker service to Grafana.
+The purpose of this repository is for documentation.
+
 ## 1. Pipeline schematic
 ![Pipeline schematic](https://user-images.githubusercontent.com/22829157/212369544-aa56d3ec-3269-4696-bcf8-a61a457baad5.png)
 
