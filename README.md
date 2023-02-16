@@ -9,11 +9,14 @@ Kafka installation: https://kafka.apache.org/quickstart
 
 **Start the ZooKeeper service**
 In the kafka repository: `cd kafka_2.13-3.3.1`
+
 $ `bin/zookeeper-server-start.sh config/zookeeper.properties`
 
 **Start the Kafka broker service**
 In the kafka repository: `cd kafka_2.13-3.3.1`
+
 $ `bin/kafka-server-start.sh config/server.properties`
+
 Once all services have successfully launched, you will have a basic Kafka environment running and ready to use.
 
 
