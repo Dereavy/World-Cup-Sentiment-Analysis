@@ -45,16 +45,22 @@ Modifications are possible to send to Kafka stream or save with Cassandra.
 
 ## 3 Modules:
 ### Producing a stream of tweets from a pandas dataframe to simulate a real stream of tweets
+
 File: sample_tweets_producer.ipynb
+
 Desc: Kafka Producer service
+
 Usage:
 ```
 streamer = SampleTweetProducer()
 streamer.stream()
 ```
 ### Create a consumer to watch the tweets on the topic
+
 File: tweets_consumer.ipynb
+
 Desc: Kafka Consumer service
+
 Usage:
 ```
 consumer = TweetConsumer.consumer 
@@ -63,8 +69,11 @@ for message in consumer:
 ```
 
 ### Save the tweets to your database
+
 File: database_service.ipynb
+
 Desc: Saves the tweets to the database or CSV document
+
 Usage:
 ```
 database_service = DatabaseService()
@@ -72,18 +81,24 @@ database_service.to_csv(text, polarity, sentiment)
 ```
 
 ### Gets the sentiment of a tweet
+
 File: sentiment_analysis.ipynb
+
 Desc: Carries out the sentiment analysis of tweets
 Uses TextBlob to carry out sentiment analysis.
+
 Usage:
 ```
 sentiment_analysis = SentimentAnalysis()
 sentiment_analysis.get_sentiment("text to be analysed")
 ```
 ### Produce a stream of analysed tweets
+
 File: sentiment_analysis_producer.ipynb
+
 Desc: Producer service for producing the tweets after sentiment-analysis.
 The producer to be used can be a kafka producer or mqtt broker.
+
 Usage:
 ```
 sentiment_producer = SentimentAnalysisProducer("MQTT")
