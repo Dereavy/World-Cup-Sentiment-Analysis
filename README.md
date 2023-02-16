@@ -20,14 +20,19 @@ $ `bin/kafka-server-start.sh config/server.properties`
 Once all services have successfully launched, you will have a basic Kafka environment running and ready to use.
 
 
-## 2 
+## 2 Get started:
 **Start the Sample Tweets Producer**
+
 `sample_tweets_producer.ipynb`
+
 This will start a service that will stream tweets to kafka.
 
 **Start the Sentiment Analysis Producer**
+
 `sentiment_analysis_producer.ipynb`
+
 This will analyse the tweets and send them to MQTT and save them to a CSV.
+
 Modifications are possible to send to Kafka stream or save with Cassandra.
 
 ## 3 Modules:
