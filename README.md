@@ -5,7 +5,8 @@ This is an unfinished project in the sense that we have not managed to link the 
 The purpose of this repository is for documentation.
 
 ## 1. Pipeline schematic
-![Pipeline schematic](https://user-images.githubusercontent.com/22829157/212369544-aa56d3ec-3269-4696-bcf8-a61a457baad5.png)
+![schema_sentiment_analysis drawio](https://user-images.githubusercontent.com/22829157/219655386-fd4e0e81-37b5-447d-83ad-11526c9df70d.png)
+
 
 ## 1 Kafka Installation:
 Kafka installation: https://kafka.apache.org/quickstart
